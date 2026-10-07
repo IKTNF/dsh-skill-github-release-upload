@@ -1,0 +1,17 @@
+# 运行时杂物
+*.tmp
+*.log
+*.bak
+~$*
+
+# 令牌缓存（脚本默认写到 %TEMP%，这里只是保险，防止有人改到仓库内）
+dsh-gh-token.txt
+*token*.txt
+*credential*.txt
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
